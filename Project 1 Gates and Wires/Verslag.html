@@ -1,0 +1,345 @@
+<html xmlns="http://www.w3.org/1999/html">
+ <head>
+  <link href="Verslag_Style.css" rel="stylesheet"/>
+  <title>
+   Verslag
+  </title>
+  <style type="text/css">
+   u {text-decoration: overline;}
+  </style>
+  <style id="holderjs-style" type="text/css">
+  </style>
+ </head>
+ <body class="__plain_text_READY__">
+  <header>
+   <h1>
+    Verslag
+   </h1>
+  </header>
+  <b>
+   Titel:
+  </b>
+  <h2 class="subtitel">
+   Project 1: Gates and Wires
+  </h2>
+  <p>
+   Dit verslag werd opgesteld door:
+   <br/>
+  </p>
+  <ul>
+   <li>
+    <b>
+     Naam:
+    </b>
+    <i>
+     Mathis De Herdt
+    </i>
+    <br/>
+    <b>
+     Studentennummer:
+    </b>
+    <i>
+     20233480
+    </i>
+    <br/>
+    <b>
+     Email adres:
+    </b>
+    <i>
+     mathis.deherdt@student.uantwerpen.be
+    </i>
+   </li>
+   <li>
+    <b>
+     Naam:
+    </b>
+    <i>
+     Muaz Moin
+    </i>
+    <br/>
+    <b>
+     Studentennummer:
+    </b>
+    <i>
+     20230531
+    </i>
+    <br/>
+    <b>
+     Email adres:
+    </b>
+    <i>
+     muaz.moin@student.uantwerpen.be
+    </i>
+   </li>
+  </ul>
+  <b>
+   Aantal man-uren besteed:
+  </b>
+  <i>
+   8 uur
+  </i>
+  <br/>
+  <b>
+   Moeilijkheidsgraad:
+  </b>
+  <i>
+   5
+  </i>
+  /10 (1 is heel makkelijk, 10 is heel moeilijk)
+  <p>
+  </p>
+  <h2>
+   Inhoud van de oplossing
+  </h2>
+  <p>
+   De oplossing bestaat uit de volgende bestanden (geef alle bestanden op):
+  </p>
+  <ul>
+   <li>
+    <a href="./project%201_oefening3%20.circ">
+     Oefening 3.circ
+    </a>
+    : Onze oplossing van oefening 3.
+   </li>
+   <li>
+    <a href="./Project1_Oefening%204%20S%20O%20P.circ">
+     Oefening 4 S O P.cicr
+    </a>
+    : Onze oplossing van oefening 4.
+   </li>
+   <li>
+    <a href="./Project1_Oefening%204.circ">
+     Oefening 4.circ
+    </a>
+    : Onze oplossing van oefening 4.
+   </li>
+   <li>
+    <a href="./Project1_oefening5.circ">
+     Oefening 5.circ
+    </a>
+    : Onze oplossing van oefening 5.
+   </li>
+  </ul>
+  <h2>
+   Verslag
+  </h2>
+  <p>
+   Geef een gestructureerd verslag van de oplossing. Gebruik figuren (bijvoorbeeld 
+
+screenshots) waar je denkt dat ze een bijdrage leveren. Gebruik eventueel subtitels 
+
+om structuur te brengen. Zorg ervoor dat alle onderdelen van de opgave klaar en 
+
+duidelijk besproken worden. Verduidelijk hoe je tot de oplossing bent gekomen.
+  </p>
+  <h2 class="oefening">
+   Oefening 1:
+  </h2>
+  <p>
+   In de eerste oefening werd er ons gevraagd om de stelling van De Morgan te bewijzen
+    door gebruik te maken van een waarheidstabel.
+  </p>
+  <p>
+   We vulden eerst de kolommen A en B in zodat alle mogelijke combinaties van twee cijfers (nl. 0 en 1)
+    aanwezig waren. Vervolgens gebruikte we de booleaanse algebra om de overige kolommen in te vullen.
+  </p>
+  <img alt="Waarheidstabel" class="centerimg" src="Oefening%201%20A.png"/>
+  <p>
+  </p>
+  <img alt="Waarheidstabel" class="centerimg" src="Oefening%201%20B.png"/>
+  <p class="witregel">
+  </p>
+  <p><h2 class="oefening"> Oefening 2: </h2></p>
+
+    <p class="witregel">In oefening 2 was de opracht om de stelling van De Morgan te bewijzen. </p>
+    <p class="teBewijzen">Te Bewijzen: </p>
+    <p class="centertxt">E = ((A &middot; B) + (A &middot; C) +   (B &middot; C)) &middot; (<span class="not">A &middot; B &middot; C</span>)</p>
+<p class="centertxt">&#8660;</p>
+<p class="centertxt">E = (A &middot; B &middot; <span class="not">C</span>) + (A &middot;<span class="not">B</span> &middot; C) + (<span class="not">A</span> &middot; B &middot; C)</p>
+<p class="witregel"></p>
+    <p class="teBewijzen">Bewijs: </p>
+
+        <p class="centertxt">E = ((A &middot; B) + (A &middot; C) +   (B &middot; C)) &middot; (<span class="not">A &middot; B &middot; C</span>)</p>
+<p class="centertxt">&#8660;</p>
+<p class="centertxt">E = (A &middot; B &middot; <span class="not">C</span>) + (A &middot; <span class="not">B</span> &middot; C) + (<span class="not">A</span> &middot; B &middot; C)</p>
+<p class="centertxt">&#8660;</p>
+<p class="centertxt">((A &middot; B) + (A &middot; C) + (B &middot;C)) &middot; (<span class="not">A &middot; B &middot; C</span>)
+<p class="centertxt">&#8660; De Wet van Morgan</p>
+<p class="centertxt">((A &middot; B) + (A &middot; C) + (B &middot;C)) &middot; (<span class="not">A</span> + <span class="not">B</span> + <span class="not">C</span>)
+<p class="centertxt">&#8660; Distributive Law </p>
+<p class="centertxt">(A &middot; B) &middot; (<span class="not">A</span> + <span class="not">B</span> + <span class="not">C</span>) + (A &middot; C) &middot; (<span class="not">A</span> + <span class="not">B</span> + <span class="not">C</span>) + (B &middot; C) &middot; (<span class="not">A</span> + <span class="not">B</span> + <span class="not">C</span>)
+<p class="centertxt">&#8660; Distributive law, Complement law: A &middot; <span class="not">A</span> = 0
+<p class="centertxt">((0 &middot; B) + (0 &middot;A) + (A + B + <span class="not">C</span>)) + ((0 &middot; C) + (A &middot; <span class="not">B</span> &middot; C) + (0 &middot; A)) + ((<span class="not">A</span> &middot; B &middot; C) + (0 &middot; C) + (0 &middot;B))
+    <p class="centertxt">&#8660; Complement law: A &middot; 0 = 0</p>
+<p class="centertxt">((0 + 0 ( A + B + <span class="not">C</span>)) + (0 + (A + <span class="not">B</span> + C) + 0)) + ((<span class="not">A</span> + B + C) + 0 + 0)
+    <p class="centertxt">&#8660; Indentity law: 0 + 0 + (A + B + <span class="not">C</span>) = A + B + <span class="not" >C</span> </p>
+    <p class="centertxt">(A + B + <span class="not">C</span>) + (A + <span class="not">B</span> + C) + (<span class="not">A</span> + B + C)
+
+
+
+  <p class="witregel">
+  </p>
+  <h2 class="oefening">
+   Oefening 3:
+  </h2>
+  <p>
+   In oefening 3 moesten we voor het eerst gebruik maken van Logisim.
+    Onze volledige oplossing van deze oefening kan u vinden in toegevoegde bijlage bovenaan.
+  </p>
+  <p>
+   Eerst moesten we een NAND poort bouwen in het programma, en vervolgens aantonen dat deze
+    NAND poort functioneel compleet is door er de 3 basispoorten: AND, NOT en OR mee te bouwen.
+  </p>
+  <p>
+   We leggen nu stap voor stap uit wat de gedachtegang was tijdens het maken van de specifieke poort:
+  </p>
+  <p class="teBewijzen">
+   Oefening 3) A) de NAND gate
+  </p>
+  <p>
+   Deze oefening hebben we op twee manieren kunnen oplossen. We bespreken beide manieren:
+  </p>
+  <ul>
+   <li class="onderlijnen">
+    Manier 1:
+   </li>
+   <ul>
+    <ul>
+     <li>
+      De eerste manier was heel voor de hand liggend, we wisten al op voorhand hoe dat NAND
+                    een combinatie was van een AND gate en een NOT gate, dit is ook te zien in onze eerste
+                    oplossing van 3)A. We hebben simpelweg de AND gate gebruikt en vervolgens hier de NOT
+                    gate van genomen.
+     </li>
+    </ul>
+   </ul>
+  </ul>
+ </body>
+</html>
+<ul>
+ <li class="onderlijnen">
+  Manier 2:
+ </li>
+ <ul>
+  <ul>
+   <li>
+    Bij de tweede optie hebben we gebruik gemaakt van 2 NOT gates en 1 OR gate
+                    door gebruik te maken van de wet van De Morgan
+   </li>
+  </ul>
+ </ul>
+</ul>
+<p>
+ Beide manieren zijn uitgewerkt in onze oefening: (zie onderstaande afbeelding)
+</p>
+<img class="centerimg" src="Oefening%203%20A.png"/>
+<br/>
+<p class="teBewijzen">
+ Oefening 3)B)
+</p>
+Bij deze oefening implementeerde men de NAND gates om aan te tonen dat deze functioneel compleet waren. (zie ook onderstaande afbeelding)
+<ul>
+ <li>
+  <strong>
+   AND:
+  </strong>
+  We weten dat als we een NAND gate implementeren dat we eerst de NOT nemen en dan de AND, dus als we deze NOT nu 2 keer zouden gebruiken  en het signaal van de eerste AND zouden verdubbelen, dan houden we nog enkel een AND gate over.
+ </li>
+ <li>
+  <strong>
+   NOT:
+  </strong>
+  We weten dat als we een NAND gate die met maar 1 input gaan aansluiten dat deze hetzelfde wal functioneren als een NOT gate.
+ </li>
+ <li>
+  <strong>
+   OR:
+  </strong>
+  We hebben hier eerst de opstelling van een NOT gate gebruikt, en deze output weer als nieuwe input gebruikt in een nieuwe NAND gate.
+ </li>
+</ul>
+<img class="centerimg" src="Oefening%203%20B.png"/>
+<br/>
+<h2 class="oefening">
+ Oefening 4:
+</h2>
+<p>
+ In oefening 4 begonnen we van een waarheidstabel en was de opdracht om daarvan een logisch circuit te bouwen in logisim. We hebben dit opgedeeld in enkele stappen:
+</p>
+<ol>
+ <li>
+  <strong>
+   Sum Of Products
+  </strong>
+  <ol>
+   <li>
+    Voor de de Sum Of Products van
+    <strong>
+     Output X en Y
+    </strong>
+    hebben we
+        een lange en een korte versie. De lange versie is de uitkomst voordat we Booleaanse algebra
+        hebben toegepast om een kortere versie te verkijgen, en maakt dus gebruik van
+        minder logic gates. De oplossing van het logisch circuit van de volledige Sum Of Products van de waarheidstabel,
+        is tevinden als bijlage genaamd: "Project1_Oefening 4 S O P.circ"
+   </li>
+  </ol>
+  <img class="a4-page" src="Oefening%20X.jpg"/>
+  <br/>
+  <img class="a4-page" src="Oefening%20Y.jpg"/>
+  <br/>
+ </li>
+ <li>
+  De twee uitkomsten hebben we dan gecombineerd met elkaar en hiervan een logisch circuit gemaakt in Logisim.
+  <ol>
+   <li>
+    Het logsichcircuit hiervan is tevinden als bijlage genaamd: "Project 1_ Oefening 4.circ"
+   </li>
+  </ol>
+ </li>
+</ol>
+<img class="centerimg" src="Oefening%204%20XY.png"/>
+<br/>
+<h2 class="oefening">
+ Oefening 5:
+</h2>
+<p>
+ In oefening 5 moesten we een circuit bouwen van een LED display met 7 segmenten: De oefening was onderverdeeld in 3 oefeningen we bespreken ze op vologorde:
+</p>
+<ol>
+ <li>
+  <strong>
+   Waarheidstabel
+  </strong>
+  <ul>
+   <li>
+    Hier hebben we de informatie die we gegeven hadden omgezet in een waarheidstabel, merk op dat de verschillende segmenten de kleur hebben van de letter van de kolom.
+   </li>
+   <img class="a4-page" src="OEF%205%20Waarheidstabel.png"/>
+   <br/>
+  </ul>
+ </li>
+ <li>
+  <strong>
+   Booleaanse expressies
+  </strong>
+  <ul>
+   <li>
+    Om de expressies van deze waarheidstabel te vinden hebben we opnieuw gebruik gemaakt van de Sum of Products, deze hebben we elks apart opgeschreven. (zie onderstaande afbeelding)
+   </li>
+   <img class="centerimg" src="OEF%205%20SOP.png"/>
+   <br/>
+  </ul>
+ </li>
+ <li>
+  <strong>
+   Circuit Logisim
+  </strong>
+  <ul>
+   <li>
+    De expressies van de vorige stap hebben we hier toegepast in een logisch circuit in Logisim. De volledige versie kan u vinden in de bijlage: "Oefening 5.circ". We hebben ook nog geprobeerd de grotere versie iets compacter te maken (d.m.v. booleaanse algebra). Dit is was het eindresultaat.
+   </li>
+   <img class="a4-page" src="OEF5%20klein.png"/>
+  </ul>
+ </li>
+</ol>

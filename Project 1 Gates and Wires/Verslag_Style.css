@@ -1,0 +1,126 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    max-width: 800px;
+    margin: 40px auto;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #446688;
+}
+
+h2 {
+    color: #556677;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+i {
+    font-style: italic;
+}
+.not {
+    text-decoration: overline;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjxAwXjeu.woff2) format('woff2');
+  unicode-range: U+0100-02AF, U+0304, U+0308, U+0329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+p{
+  margin-bottom: 15px;
+
+}
+.subtitel
+{
+  text-decoration: underline;
+  text-align: center;
+}
+
+.oefening
+{
+  text-decoration: underline;
+}
+.centerimg
+{
+  display: block;
+  margin: 0 auto;
+}
+.witregel
+{
+  margin-bottom: 80px;
+}
+.not {
+    text-decoration: overline;
+}
+.centertxt
+{
+  text-align: center;
+}
+.teBewijzen
+{
+  text-align: left ;
+  padding-left: 80px;
+  text-decoration: underline;
+  font-size: medium;
+}
+.onderlijnen
+{
+  text-decoration: underline;
+}
+.a4-page {
+      width: 15cm;
+      height: 20.7cm;
+      display: block;
+      margin: 0 auto;
+
+
